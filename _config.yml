@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://roachhd.github.io/octoflatr
+url: http://roachhd.github.io/octoflatr/
 title: Boom
 subtitle: Difficult takes a day, impossible takes a week.
 author: Katie Ball
@@ -26,9 +26,9 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /octoflatr
-permalink: /blog/:year/:month/:day/:title/
-source: source
+root: /octoflatr/
+permalink: octoflatr/blog/:year/:month/:day/:title/
+source: /octoflatr/source
 destination: public
 plugins: plugins
 code_dir: downloads/code
